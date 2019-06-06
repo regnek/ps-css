@@ -2,8 +2,9 @@
 
 *How to formulate your styles for projects at Primitive Social*
 
-## References
+## Other Resources
 
+- [PS JavaScript Style Guide](https://github.com/regnek/ps-js)
 - [PS Sass Library](https://github.com/regnek/ps-sass-lib)
 - [PS Snippet Library](https://github.com/regnek/ps-snippet-lib)
 
