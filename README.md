@@ -120,6 +120,8 @@ We use the 8pt grid system (read more about it [here](https://builttoadapt.io/in
 
 Using this invisible grid allows our designs to feel more coherent and consistent. The only exeption to using `rem` is when working with sizes lower than `4px (.25rem)`.
 
+> **Designers:** download [nudg.it](https://nudg.it) to modify [Sketch](https://sketchapp.com)'s *nudge* value to 8px instead of the standard 10. Or if you use [Adobe XD](https://www.adobe.com/products/xd.html), you can download [this plugin](https://github.com/littlebusters/Adjust-size-by-shortcut-for-AdobeXD) to change the nudge value.
+
 
 
 
