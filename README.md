@@ -133,7 +133,7 @@ Avoid binding to the same class in both your CSS and JavaScript. Conflating the 
 Please create JavaScript-specific classes to bind to, prefixed with `.js-`:
 
 ```html
-<button class="btn btn-primary js-requestToBook">Request to Book</button>
+<button class="btn--primary js-requestToBook">Request to Book</button>
 ```
 
 ### Setting to none
