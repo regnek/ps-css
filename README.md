@@ -167,15 +167,13 @@ If a property can take a number as part or all of the value, use `0` instead of 
 
 *Install [Dart Sass](https://github.com/sass/dart-sass/releases/tag/1.20.3) using the methods below as opposed to using [npm](https://npmjs.org) to install Sass, as the JavaScript implementation is slower than the Dart implementation. Also, [Ruby Sass](https://sass-lang.com/ruby-sass), the original implementation of Sass, has been discontinued, so if you installed Sass on your machine using the Ruby gem, please uninstall it and migrate to the Dart implementation.*
 
-**Windows Installation**
-Using the [Chocolatey package manager](https://chocolatey.org/)
+**Windows installation** using the [Chocolatey package manager](https://chocolatey.org/)
 
 ```
 $ choco install sass
 ```
 
-**Mac Installation**
-Using the [Homebrew package manager](https://brew.sh/)
+**Mac installation** using the [Homebrew package manager](https://brew.sh/)
 
 ```
 $ brew install sass/sass/sass
