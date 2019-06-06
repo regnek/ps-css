@@ -165,7 +165,7 @@ If a property can take a number as part or all of the value, use `0` instead of 
 * Use the `.scss` syntax, never the original `.sass` syntax
 * Order your regular CSS and `@include` declarations logically (see below)
 
-*Prefer [Dart Sass](https://github.com/sass/dart-sass/releases/tag/1.20.3) over [npm Sass](https://www.npmjs.com/package/sass) as the JavaScript implementation is slower than the Dart implementation. Also, [Ruby Sass](https://sass-lang.com/ruby-sass), the original implementation of Sass has been discontinued, so if you installed Sass on your machine using the Ruby gem, please migrate to the Dart implementation.*
+*Install [Dart Sass](https://github.com/sass/dart-sass/releases/tag/1.20.3) using the methods below as opposed to using [npm](https://npmjs.org) to install Sass, as the JavaScript implementation is slower than the Dart implementation. Also, [Ruby Sass](https://sass-lang.com/ruby-sass), the original implementation of Sass, has been discontinued, so if you installed Sass on your machine using the Ruby gem, please uninstall it and migrate to the Dart implementation.*
 
 **Windows, using the [Chocolatey package manager](https://chocolatey.org/)**
 
