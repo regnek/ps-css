@@ -2,6 +2,11 @@
 
 *How to formulate your styles for projects at Primitive Social*
 
+## References
+
+- [PS Sass Library](https://github.com/regnek/ps-sass-lib)
+- [PS Snippet Library](https://github.com/regnek/ps-snippet-lib)
+
 ## Table of Contents
 
 1. [CSS](#css)
