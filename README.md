@@ -169,7 +169,7 @@ For more on this subject, read [CSS Wizardry's article](http://csswizardry.com/2
 
 Avoid binding to the same class in both your CSS and JavaScript. Conflating the two often leads to, at a minimum, time wasted during refactoring when a developer must cross-reference each class they are changing, and at its worst, developers being afraid to make changes for fear of breaking functionality.
 
-Please create JavaScript-specific classes to bind to, prefixed with `.js-`:
+Please create JavaScript-specific classes to bind to, prefixed with `js-`.
 
 ```html
 <button class="btn--primary js-requestToBook">Request to Book</button>
