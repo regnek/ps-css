@@ -7,10 +7,11 @@
 1. [CSS](#css)
     - [Formatting](#formatting)
     - [Comments](#comments)
+    - [Layout & sizing](#layout-and-sizing)
     - [BEM](#bem)
-    - [ID Selectors](#id-selectors)
+    - [ID selectors](#id-selectors)
     - [JavaScript hooks](#javascript-hooks)
-    - [Falsy Values](#setting-falsy-values)
+    - [Falsy values](#setting-falsy-values)
 1. [Sass](#sass)
     - [Syntax](#syntax)
     - [Ordering](#ordering-of-property-declarations)
@@ -92,6 +93,35 @@ Block style comment
   color: tomato;
 }
 ```
+
+### Layout and sizing
+
+If you haven't already, [download the PS Sass Starter Kit](https://primitivesocial.com/ak/sass-starter-kit.zip) to get up and running with the base layout along with other goodies to speed up development.
+
+We use the 8pt grid system (read more about it [here](https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632?gi=2164ba591622)), which succinctly put, allows us to use almost exlusively `rem` units to size our layout and elements, and disallows the use of random pixel values.
+
+**Bad**
+
+```css
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+```
+
+**Good**
+
+```css
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+```
+
+Using this invisible grid allows our designs to feel more coherent and consistent. The only exeption to using `rem` is when working with sizes lower than `4px (.25rem)`.
+
+
+
 
 ### BEM
 
