@@ -67,7 +67,7 @@
 
 ### Comments
 
-* Prefer line comments (use `//` in Sass) to block comments.
+* Prefer line comments (use `//` in Sass) over block comments.
 * Prefer comments on their own line. Avoid end-of-line comments.
 * Write detailed comments for code that isn't self-documenting:
   - Uses of z-index
