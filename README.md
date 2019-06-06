@@ -13,6 +13,7 @@
     - [JavaScript hooks](#javascript-hooks)
     - [Falsy values](#setting-falsy-values)
 1. [Sass](#sass)
+    - [Installation](#installation)
     - [Syntax](#syntax)
     - [Ordering](#ordering-of-property-declarations)
     - [Variables](#variables)
@@ -192,10 +193,7 @@ If a property can take a number as part or all of the value, use `0` instead of 
 
 ## Sass
 
-### Syntax
-
-* Use the `.scss` syntax, never the original `.sass` syntax
-* Order your regular CSS and `@include` declarations logically (see below)
+### Installation
 
 *Install [Dart Sass](https://github.com/sass/dart-sass/releases/tag/1.20.3) using the methods below as opposed to using [npm](https://npmjs.org) to install Sass, as the JavaScript implementation is slower than the Dart implementation. Also, [Ruby Sass](https://sass-lang.com/ruby-sass), the original implementation of Sass, has been discontinued, so if you installed Sass on your machine using the Ruby gem, please uninstall it and migrate to the Dart implementation.*
 
@@ -211,6 +209,10 @@ $ choco install sass
 $ brew install sass/sass/sass
 ```
 
+### Syntax
+
+* Use the `.scss` syntax, never the original `.sass` syntax
+* Order your regular CSS and `@include` declarations logically (see below)
 
 ### Ordering of property declarations
 
