@@ -10,7 +10,7 @@
     - [BEM](#bem)
     - [ID Selectors](#id-selectors)
     - [JavaScript hooks](#javascript-hooks)
-    - [Falsy Values](#setting-falsey-values)
+    - [Falsy Values](#setting-falsy-values)
 1. [Sass](#sass)
     - [Syntax](#syntax)
     - [Ordering](#ordering-of-property-declarations)
