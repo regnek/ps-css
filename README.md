@@ -136,7 +136,7 @@ Please create JavaScript-specific classes to bind to, prefixed with `.js-`:
 <button class="btn--primary js-requestToBook">Request to Book</button>
 ```
 
-### Setting to none
+### Setting *falsy* values
 
 If a property can take a number as part or all of the value, use `0` instead of `none` to specify that a style should not be displayed.
 
