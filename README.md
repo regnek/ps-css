@@ -26,7 +26,7 @@
 
 * Use soft tabs (2 spaces) for indentation.
 * Prefer dashes over camelCasing in class names, unless associated with JS
-  - Underscores and PascalCasing are okay if you are using BEM (see [How We Use BEM](#bem) below).
+  - Underscores and PascalCasing are okay if you are using BEM (see [BEM](#bem) section below).
 * Do not use ID selectors to style elements.
 * When using multiple selectors in a rule declaration, give each selector its own line.
 * Put a space before the opening brace `{` in rule declarations.
