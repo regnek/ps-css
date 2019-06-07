@@ -133,7 +133,7 @@ Using this invisible grid allows our designs to feel more coherent and consisten
 
 ### Typography
 
-When setting up your styles, we recommend using a typography scale to size your fonts. You can use a tool like [type-scale.com](https://type-scale.com) to create your typographic scale.
+When setting up your styles, we recommend using a typography scale to size your fonts. If it helps, you can use a tool like [type-scale.com](https://type-scale.com) to create your typographic scale.
 
 *Remember to set your font sizes relative to the 8pt grid.*
 
