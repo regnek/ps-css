@@ -14,6 +14,7 @@
     - [Formatting](#formatting)
     - [Comments](#comments)
     - [Layout & sizing](#layout-and-sizing)
+    - [Typography](#typography)
     - [BEM](#bem)
     - [ID selectors](#id-selectors)
     - [JavaScript hooks](#javascript-hooks)
@@ -130,6 +131,11 @@ Using this invisible grid allows our designs to feel more coherent and consisten
 > **Designers:** download [nudg.it](https://nudg.it) to modify [Sketch](https://sketchapp.com)'s *nudge (`Shift + arrow`)* value to 8 pixels instead of the standard 10. Or if you use [Adobe XD](https://www.adobe.com/products/xd.html), you can download [this plugin](https://github.com/littlebusters/Adjust-size-by-shortcut-for-AdobeXD) to change the nudge value.
 
 
+### Typography
+
+When setting up your styles, we recommend using a typography scale to size your fonts. You can use a tool like [type-scale.com](https://type-scale.com) to create your typographic scale.
+
+*Remember to set your font sizes relative to the 8pt grid.*
 
 
 ### BEM
