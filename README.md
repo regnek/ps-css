@@ -264,7 +264,7 @@ $ brew install sass/sass/sass
       @include transition(background 0.5s ease);
 
       .icon {
-        margin-right: 10px;
+        margin-right: .5rem;
       }
     }
     ```
