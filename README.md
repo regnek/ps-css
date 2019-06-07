@@ -75,7 +75,7 @@
 ### Comments
 
 * Prefer line comments (use `//` in Sass) over block comments.
-* Prefer comments on their own line. Avoid end-of-line comments.
+* Avoid end-of-line comments. Prefer comments on their own line, appended at the end of a block.
 * Write detailed comments for code that isn't self-documenting:
   - Uses of z-index
   - Compatibility or browser-specific hacks
@@ -87,8 +87,8 @@
 Block style comment
 */
 .element {
-  z-index: 9999; /* end of line comment */
   color: tomato;
+  z-index: 9999; /* end of line comment */
 }
 ```
 
@@ -96,9 +96,9 @@ Block style comment
 
 ```css
 .element {
-  /* z-index to display menu on top of everything */
-  z-index: 9999;
   color: tomato;
+  z-index: 9999;
+  /* z-index to display menu on top of everything */
 }
 ```
 
