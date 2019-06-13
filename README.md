@@ -104,7 +104,7 @@ Block style comment
 
 ### Layout and sizing
 
-If you haven't already, [download the PS Sass Library](https://primitivesocial.com/ak/sass-library.zip) to get up and running with the base layout along with other goodies to speed up development.
+If you haven't already, [download the PS Sass Library](https://github.com/regnek/ps-sass-lib) to get up and running with the base layout along with other goodies to speed up development.
 
 We use the 8pt grid system ([read more about it here](https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632?gi=2164ba591622)), which succinctly put, allows us to use almost exlusively `rem` units to size our layout and elements, and disallows the use of random pixel values.
 
